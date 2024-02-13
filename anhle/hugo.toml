@@ -1,0 +1,26 @@
+baseURL = 'https://besanh.github.io/'
+languageCode = 'en-us'
+title = 'Anh Le'
+
+[module]
+    # uncomment line below for temporary local development of module,
+    # when using a 'theme' as a git submodule or git cloned files
+    replacements = "github.com/colinwilson/lotusdocs -> lotusdocs"
+    [[module.imports]]
+        path = "lotusdocs"
+        disable = false
+    [[module.imports]]
+        path = "github.com/gohugoio/hugo-mod-bootstrap-scss/v5"
+        disable = false
+[params.docs]
+    intLinkTooltip   = true # Enable a tooltip for internal links that displays info about the destination? default false
+    darkMode = true
+    sidebarIcons = true
+    titleIcon = true
+    repoURL = "https://github.com/Besanh/lotus-blog"
+[params.footer]
+    copyright = "Anh Le"
+    version = true
+[params.social]
+github = "Besanh"
+instagram = "besanh_20.02"
